@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet"href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><img src="hinh/Vh coffee.png"  ></a>
+        
+        <ul class="navbar">
+            <li><a href="vhcoffe.html">TRANG CHỦ</a></li>
+            <li><a href="vhcoffe.html">VỀ CHÚNG TÔI</a></li>
+            <li class="navbar1">
+                <a href="thucuong.html">ĐỒ UỐNG</a>
+                <ul class="navbar2">
+                    <li><a href="trasua.html">Trà sữa </a></li>
+                    <li><a href="tra.html">Trà</a></li>
+                    <li><a href="cf.html">Cà Phê</a></li>
+                    <li><a href="daxay.html">Đồ xay</a></li>
+                </ul>
+            </li>
+            <li><a href="vhcoffe.html">ĐÁNH GIÁ</a></li>
+        </ul>
+        <div class="header-icon">
+            <button type="button" class="input"><a href="longin.html">Đăng Nhập</a></button>
+            <i class='bx bx-search' id="search-icon" ></i>
+        
+                <i class='bx bx-cart' id="cart" aria-hidden="true"></i>
+
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Giỏ Hàng</h5>
+                        <span class="close">&times;</span>
+                    </div>
+                    <div class="modal-body">
+                        <div class="cart-row">
+                            <span class="cart-item cart-header cart-column">Sản Phẩm</span>
+                            <span class="cart-price cart-header cart-column">Giá</span>
+                            <span class="cart-quantity cart-header cart-column">Số Lượng</span>
+                        </div>
+                        <div class="cart-items">
+
+                        </div>
+                        <div class="cart-total">
+                            <strong class="cart-total-title">Tổng Cộng:</strong>
+                            <span class="cart-total-price">0VNĐ</span>
+                        </div>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary close-footer">Đóng</button>
+                        <button type="button" class="btn btn-primary order">Thanh Toán</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="search-box">
+            <input type="search" name="" id="" placeholder="tìm kiem...">
+        </div>
+
+    </header>
+    <section class="products" id="products">
+        <div class="heading">
+            <h2>SẢN PHẨM</h2>
+        </div>
+    <div class="products-container" id="water">
+        <div class="box">
+            <img class="img-prd" src="hinh/tra sua olong.png" alt="">
+            <h3 class="content-product-h3">Tra sua Olong</h3>
+            <div class="content">
+                <span class="price">25000 VNĐ</span>
+                <button type="button" class="btn-cart">ĐẶT HÀNG</button>
+            </div>     
+        </div>
+        <div class="box">
+            <img class="img-prd" src="hinh/tra sua chan chau trang.png" alt="">
+            <h3 class="content-product-h3">Trà sữa chân châu trắng</h3>
+            <div class="content">
+                <span class="price">25000 VNĐ</span>
+                <button type="button" class="btn-cart">ĐẶT HÀNG</button>
+            </div>     
+        </div>
+        <div class="box">
+            <img class="img-prd" src="hinh/hong tra sua.png" alt="">
+            <h3 class="content-product-h3">Hồng Trà sữa</h3>
+            <div class="content">
+                <span class="price">30000 VNĐ</span>
+                <button type="button" class="btn-cart">ĐẶT HÀNG</button>
+            </div>     
+        </div>
+        <div class="box">
+            <img class="img-prd" src="hinh/hong tra hot.png" alt="">
+            <h3 class="content-product-h3">Hồng Trà sữa nóng</h3>
+            <div class="content">
+                <span class="price">30000 VNĐ</span>
+                <button type="button" class="btn-cart">ĐẶT HÀNG</button>
+            </div>     
+        </div>
+
+    </div>
+</body>
+<script src="main.js"></script>
+<script src="main1.js"></script>
+<script src="main2.js"></script>
+<script src="main3.js"></script>
+</html>
